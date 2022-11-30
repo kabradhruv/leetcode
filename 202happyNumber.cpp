@@ -4,12 +4,12 @@ using namespace std;
 class Solution
 {
 public:
-    int mul(int n)
+    int mul(int n)//1
     {
         int a = 0;
         while (n != 0)
         {
-            a += ((n % 10) * (n % 10));
+            a += ((n % 10) * (n % 10));//9 13 14
             n /= 10;
         }
         return a;
